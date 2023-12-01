@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T11:43:28 IST" name="test1" finished-at="2023-12-01T11:44:03 IST" duration-ms="35418">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T11:43:28 IST" name="Test" finished-at="2023-12-01T11:44:03 IST" duration-ms="35418">
+      <class name="tests.Logintest">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:tests.Logintest@771a660]" started-at="2023-12-01T11:43:28 IST" name="openApp" finished-at="2023-12-01T11:43:40 IST" duration-ms="12364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@771a660]" started-at="2023-12-01T11:43:44 IST" name="testLoginPage" data-provider="testdata" finished-at="2023-12-01T11:43:50 IST" duration-ms="5871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@771a660]" started-at="2023-12-01T11:43:50 IST" name="testLoginPage" data-provider="testdata" finished-at="2023-12-01T11:43:57 IST" duration-ms="7288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Itest@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Itest@test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method signature="testLoginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Logintest@771a660]" started-at="2023-12-01T11:43:57 IST" name="testLoginPage" data-provider="testdata" finished-at="2023-12-01T11:44:03 IST" duration-ms="5632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:tests.Logintest@771a660]" started-at="2023-12-01T11:44:03 IST" name="closeApp" finished-at="2023-12-01T11:44:03 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- tests.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- test1 -->
+</testng-results>
